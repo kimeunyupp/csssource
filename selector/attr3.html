@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      [class^="btn"] {
+        color: greenyellow;
+        background-color: grey;
+        text-decoration: underline;
+        padding: 10px;
+        border-radius: 20px;
+      }
+      [class$="success"] {
+        color: red;
+        background-color: darkblue;
+      }
+      [class$="danger"] {
+        color: darkorchid;
+      }
+    </style>
+  </head>
+  <body>
+    <button>Normal</button>
+    <button class="btn-success" type="submit">Normal</button>
+    <button class="btn-danger" type="reset">Normal</button>
+    <input type="button" value="전송" />
+    <input type="submit" value="전송" />
+    <input type="reset" value="전송" />
+  </body>
+</html>
